@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37459EF11BBC15CE00A65E35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37459EF01BBC15CE00A65E35 /* AppDelegate.m */; };
+		37459EF31BBC15CE00A65E35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37459EF21BBC15CE00A65E35 /* main.m */; };
+		37459EF61BBC15CE00A65E35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37459EF51BBC15CE00A65E35 /* ViewController.m */; };
+		37459EF81BBC15CE00A65E35 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37459EF71BBC15CE00A65E35 /* Images.xcassets */; };
+		37459EFB1BBC15CE00A65E35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37459EF91BBC15CE00A65E35 /* Main.storyboard */; };
+		37459F071BBC15CE00A65E35 /* iSMSGPasswordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37459F061BBC15CE00A65E35 /* iSMSGPasswordTests.m */; };
+		3788DF681BBC74A400D8F5DB /* CustomTextFieldFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3788DF671BBC74A400D8F5DB /* CustomTextFieldFormatter.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37459F011BBC15CE00A65E35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37459EE21BBC15CE00A65E35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37459EE91BBC15CE00A65E35;
+			remoteInfo = iSMSGPassword;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37459EEA1BBC15CE00A65E35 /* iSMSGPassword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSMSGPassword.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37459EEE1BBC15CE00A65E35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37459EEF1BBC15CE00A65E35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		37459EF01BBC15CE00A65E35 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		37459EF21BBC15CE00A65E35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37459EF41BBC15CE00A65E35 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		37459EF51BBC15CE00A65E35 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		37459EF71BBC15CE00A65E35 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		37459EFA1BBC15CE00A65E35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37459F001BBC15CE00A65E35 /* iSMSGPasswordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iSMSGPasswordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37459F051BBC15CE00A65E35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37459F061BBC15CE00A65E35 /* iSMSGPasswordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iSMSGPasswordTests.m; sourceTree = "<group>"; };
+		3788DF661BBC74A400D8F5DB /* CustomTextFieldFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTextFieldFormatter.h; sourceTree = "<group>"; };
+		3788DF671BBC74A400D8F5DB /* CustomTextFieldFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTextFieldFormatter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37459EE71BBC15CE00A65E35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37459EFD1BBC15CE00A65E35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37459EE11BBC15CE00A65E35 = {
+			isa = PBXGroup;
+			children = (
+				37459EEC1BBC15CE00A65E35 /* iSMSGPassword */,
+				37459F031BBC15CE00A65E35 /* iSMSGPasswordTests */,
+				37459EEB1BBC15CE00A65E35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37459EEB1BBC15CE00A65E35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37459EEA1BBC15CE00A65E35 /* iSMSGPassword.app */,
+				37459F001BBC15CE00A65E35 /* iSMSGPasswordTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37459EEC1BBC15CE00A65E35 /* iSMSGPassword */ = {
+			isa = PBXGroup;
+			children = (
+				37459EEF1BBC15CE00A65E35 /* AppDelegate.h */,
+				37459EF01BBC15CE00A65E35 /* AppDelegate.m */,
+				37459EF41BBC15CE00A65E35 /* ViewController.h */,
+				37459EF51BBC15CE00A65E35 /* ViewController.m */,
+				37459EF71BBC15CE00A65E35 /* Images.xcassets */,
+				37459EF91BBC15CE00A65E35 /* Main.storyboard */,
+				37459EED1BBC15CE00A65E35 /* Supporting Files */,
+				3788DF661BBC74A400D8F5DB /* CustomTextFieldFormatter.h */,
+				3788DF671BBC74A400D8F5DB /* CustomTextFieldFormatter.m */,
+			);
+			path = iSMSGPassword;
+			sourceTree = "<group>";
+		};
+		37459EED1BBC15CE00A65E35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37459EEE1BBC15CE00A65E35 /* Info.plist */,
+				37459EF21BBC15CE00A65E35 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37459F031BBC15CE00A65E35 /* iSMSGPasswordTests */ = {
+			isa = PBXGroup;
+			children = (
+				37459F061BBC15CE00A65E35 /* iSMSGPasswordTests.m */,
+				37459F041BBC15CE00A65E35 /* Supporting Files */,
+			);
+			path = iSMSGPasswordTests;
+			sourceTree = "<group>";
+		};
+		37459F041BBC15CE00A65E35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37459F051BBC15CE00A65E35 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37459EE91BBC15CE00A65E35 /* iSMSGPassword */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37459F0A1BBC15CE00A65E35 /* Build configuration list for PBXNativeTarget "iSMSGPassword" */;
+			buildPhases = (
+				37459EE61BBC15CE00A65E35 /* Sources */,
+				37459EE71BBC15CE00A65E35 /* Frameworks */,
+				37459EE81BBC15CE00A65E35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iSMSGPassword;
+			productName = iSMSGPassword;
+			productReference = 37459EEA1BBC15CE00A65E35 /* iSMSGPassword.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37459EFF1BBC15CE00A65E35 /* iSMSGPasswordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37459F0D1BBC15CE00A65E35 /* Build configuration list for PBXNativeTarget "iSMSGPasswordTests" */;
+			buildPhases = (
+				37459EFC1BBC15CE00A65E35 /* Sources */,
+				37459EFD1BBC15CE00A65E35 /* Frameworks */,
+				37459EFE1BBC15CE00A65E35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37459F021BBC15CE00A65E35 /* PBXTargetDependency */,
+			);
+			name = iSMSGPasswordTests;
+			productName = iSMSGPasswordTests;
+			productReference = 37459F001BBC15CE00A65E35 /* iSMSGPasswordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37459EE21BBC15CE00A65E35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Prabin Datta";
+				TargetAttributes = {
+					37459EE91BBC15CE00A65E35 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					37459EFF1BBC15CE00A65E35 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 37459EE91BBC15CE00A65E35;
+					};
+				};
+			};
+			buildConfigurationList = 37459EE51BBC15CE00A65E35 /* Build configuration list for PBXProject "iSMSGPassword" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37459EE11BBC15CE00A65E35;
+			productRefGroup = 37459EEB1BBC15CE00A65E35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37459EE91BBC15CE00A65E35 /* iSMSGPassword */,
+				37459EFF1BBC15CE00A65E35 /* iSMSGPasswordTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37459EE81BBC15CE00A65E35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37459EF81BBC15CE00A65E35 /* Images.xcassets in Resources */,
+				37459EFB1BBC15CE00A65E35 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37459EFE1BBC15CE00A65E35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37459EE61BBC15CE00A65E35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37459EF61BBC15CE00A65E35 /* ViewController.m in Sources */,
+				3788DF681BBC74A400D8F5DB /* CustomTextFieldFormatter.m in Sources */,
+				37459EF31BBC15CE00A65E35 /* main.m in Sources */,
+				37459EF11BBC15CE00A65E35 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37459EFC1BBC15CE00A65E35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37459F071BBC15CE00A65E35 /* iSMSGPasswordTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37459F021BBC15CE00A65E35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37459EE91BBC15CE00A65E35 /* iSMSGPassword */;
+			targetProxy = 37459F011BBC15CE00A65E35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37459EF91BBC15CE00A65E35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37459EFA1BBC15CE00A65E35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37459F081BBC15CE00A65E35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		37459F091BBC15CE00A65E35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		37459F0B1BBC15CE00A65E35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = iSMSGPassword/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		37459F0C1BBC15CE00A65E35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = iSMSGPassword/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		37459F0E1BBC15CE00A65E35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iSMSGPasswordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSMSGPassword.app/Contents/MacOS/iSMSGPassword";
+			};
+			name = Debug;
+		};
+		37459F0F1BBC15CE00A65E35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iSMSGPasswordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSMSGPassword.app/Contents/MacOS/iSMSGPassword";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37459EE51BBC15CE00A65E35 /* Build configuration list for PBXProject "iSMSGPassword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37459F081BBC15CE00A65E35 /* Debug */,
+				37459F091BBC15CE00A65E35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37459F0A1BBC15CE00A65E35 /* Build configuration list for PBXNativeTarget "iSMSGPassword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37459F0B1BBC15CE00A65E35 /* Debug */,
+				37459F0C1BBC15CE00A65E35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37459F0D1BBC15CE00A65E35 /* Build configuration list for PBXNativeTarget "iSMSGPasswordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37459F0E1BBC15CE00A65E35 /* Debug */,
+				37459F0F1BBC15CE00A65E35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37459EE21BBC15CE00A65E35 /* Project object */;
+}
